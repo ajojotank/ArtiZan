@@ -1,0 +1,66 @@
+.minting-page {
+    background-color: #ffffff;
+    min-height: 100vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .minting-page > .container {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    border-radius: 8px;
+  }
+  
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .minting-image {
+    width: 75%;
+    max-width: 500px;
+    height: auto;
+    margin-bottom: 2rem;
+    cursor: pointer; /* Indicate that the image is clickable */
+  }
+  
+  .upload-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .input-field {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .nft-name, .nft-price, .usd-price {
+    color: #1e1e1e; /* Ensure text is visible */
+  }
+  
+  textarea {
+    margin-top: 1rem;
+  }
+  
+  .btn {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+  }
+  

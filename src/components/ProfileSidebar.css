@@ -1,0 +1,112 @@
+/* ProfileSidebar.css */
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: -400px;
+  width: 400px; /* Changed width to accommodate NFT cards */
+  height: 100%;
+  background: #fff;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+  transition: right 0.3s;
+  z-index: 1001; /* Higher z-index to ensure the sidebar is on top */
+}
+
+.sidebar.open {
+  right: 0;
+}
+
+.profile-content {
+  padding: 20px;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.profile-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  cursor: pointer; /* Indicate it's clickable */
+}
+
+.profile-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-button {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  margin: 10px 0;
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #fff;
+  cursor: pointer;
+}
+
+.profile-input-group {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.profile-input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.profile-input-group input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.nft-listing-section {
+  margin-top: 20px;
+}
+
+.nft-search-input {
+  width: calc(100% - 20px); /* Considering padding */
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.nft-grid {
+  display: grid;
+  grid-template-columns: 1fr; /* Single column layout for the sidebar */
+  gap: 10px;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  color: #1e1e1e;
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* Overlay to close sidebar */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000; /* Should be lower than sidebar */
+}

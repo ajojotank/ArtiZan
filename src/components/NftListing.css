@@ -1,0 +1,52 @@
+/* NftListing.css */
+
+.nft-listing {
+    padding: 20px;
+    max-width: 414px;
+    margin: 0 auto;
+    background: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 16px;
+  }
+  
+  .nft-listing-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .nft-search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+  
+  .nft-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .nft-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .nft-image {
+    width: 100%;
+    height: auto;
+    max-height: 186px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .nft-card p {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+  }
+  

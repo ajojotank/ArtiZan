@@ -1,0 +1,44 @@
+.hero {
+  height: 60vh;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity by changing the final value */
+}
+
+.hero .container {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #ffffff;
+  z-index: 1; /* Ensure content stays above the overlay */
+}
+
+.hero .display-4 {
+  font-weight: 700;
+  font-size: 4.5rem; /* Relative font size */
+  letter-spacing: -0.15rem; /* Relative letter spacing */
+  text-align: center;
+  line-height: 1.2;
+}
+
+.hero .lead {
+  font-size: 2rem; /* Relative font size */
+  text-align: center;
+  line-height: 1.2;
+  margin-top: 1.5rem;
+}
+
+.hero .btn {
+  padding: 1rem 2rem; /* Relative padding */
+  font-size: 1rem; /* Relative font size */
+}

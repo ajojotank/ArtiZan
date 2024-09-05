@@ -1,0 +1,28 @@
+/* CardSection.css */
+.custom-card {
+  flex: 1 1 auto;
+  border: none;
+  width: 100%;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: -0.48px;
+  line-height: 120%;
+  color: #1e1e1e;
+  margin-bottom: 40px;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1e1e1e;
+  text-align: center;
+}
+
+.card-text {
+  font-size: 16px;
+  color: #757575;
+  line-height: 140%;
+}
