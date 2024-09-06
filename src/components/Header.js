@@ -1,22 +1,12 @@
 import React, { useState } from 'react';
-import { Navbar, Nav, Button } from 'react-bootstrap';
+import { Navbar, Nav } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
-import SignInForm from './SignInForm';
-import SignUpForm from './SignUpForm';
 import ProfileSidebar from './ProfileSidebar'; // Import the new ProfileSidebar component
 import './Header.css';
 import logo from '../assets/logo.jpg';
 
 const Header = () => {
-  const [showSignIn, setShowSignIn] = useState(false);
-  const [showSignUp, setShowSignUp] = useState(false);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-
-  const handleShowSignIn = () => setShowSignIn(true);
-  const handleCloseSignIn = () => setShowSignIn(false);
-
-  const handleShowSignUp = () => setShowSignUp(true);
-  const handleCloseSignUp = () => setShowSignUp(false);
 
   const toggleSidebar = (e) => {
     e.stopPropagation(); // Prevent event propagation
@@ -46,20 +36,12 @@ const Header = () => {
             <LinkContainer to="/minting">
               <Nav.Link className="btn btn-dark mx-2">Create NFT</Nav.Link>
             </LinkContainer>
-            <Nav.Link className="btn btn-dark mx-2">Connect to MetaMask</Nav.Link>
           </Nav>
           <Nav className="ml-auto">
-            <Button className="btn btn-dark mx-2" onClick={handleShowSignIn}>
-              Sign in
-            </Button>
-            <Button className="btn btn-dark mx-2" onClick={handleShowSignUp}>
-              Register
-            </Button>
+            <Nav.Link className="btn btn-dark mx-2">Connect to MetaMask</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-      <SignInForm show={showSignIn} handleClose={handleCloseSignIn} />
-      <SignUpForm show={showSignUp} handleClose={handleCloseSignUp} />
       <ProfileSidebar 
         isOpen={isSidebarOpen} 
         closeSidebar={closeSidebar} 
@@ -70,3 +52,4 @@ const Header = () => {
 }
 
 export default Header;
+
