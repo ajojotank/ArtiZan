@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Artizan: Social Good NFT Marketplace for Street Artists
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Overview
+This repository contains the submission for the **Artizan** project, developed during a hackathon focused on social good. **Artizan** is a decentralized NFT marketplace designed to empower street artists by enabling them to sell their sculptures, art, and other creative works to an international audience. The platform leverages modern technologies to ensure fair compensation and verification of authenticity.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+### Problem Statement
+**How can we enable street artists to earn fair, international income for their work while ensuring the authenticity and security of transactions?**
 
-### `npm start`
+Street artists often struggle to reach broader audiences and secure fair payment for their work. **Artizan** addresses these challenges by providing a platform where artists can tokenize their work as NFTs, enabling global sales and secure transactions.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Key Features
 
-### `npm test`
+1. **NFT Marketplace:**
+   - Artists can mint NFTs representing their physical or digital artwork.
+   - Buyers from around the world can purchase these NFTs, ensuring artists receive fair compensation.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **IoT Integration for Verification:**
+   - IoT devices are used to verify the physical artwork's authenticity and condition before minting an NFT.
 
-### `npm run build`
+3. **Blockchain Technology:**
+   - Ensures secure, transparent, and tamper-proof transactions.
+   - Artists retain royalties on secondary sales.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. **User-Friendly Interface:**
+   - A sleek and intuitive platform for artists and buyers to interact.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Approach
 
-### `npm run eject`
+1. **Research:**
+   - Identified challenges faced by street artists in monetizing their work.
+   - Explored blockchain-based solutions for secure transactions and royalties.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. **Development:**
+   - Built a prototype for the NFT marketplace.
+   - Integrated IoT devices for artwork verification.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. **Testing and Iteration:**
+   - Tested the platform with mock transactions and user feedback.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Team Members
 
-## Learn More
+- **Joash Paul**
+- **Abdullah Sibda**
+- **Abdul Gani**
+- **Hadi-Rehman Butt**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Key Technologies
 
-### Code Splitting
+- **Blockchain:** For secure, decentralized transactions and NFT creation.
+- **IoT:** To verify the authenticity and condition of physical artwork.
+- **React/Vite:** For a modern and responsive front-end.
+- **Node.js:** For back-end services and smart contract interaction.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Acknowledgements
+We thank Adapt IT and hackathon organizers for providing this opportunity to innovate and collaborate. Special thanks to mentors and peers for their valuable guidance.
